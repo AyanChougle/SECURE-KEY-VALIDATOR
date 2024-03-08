@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    font-family: Sarpanch;
+}
+.navbar{
+    height : 100px;
+    background-color: #0C356A;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color : white;
+    font-size: 40px;
+}
+.mainpart{
+    display: block;
+    height: auto;
+    background-color: #0C356A;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.heading{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 200px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.b1{
+     font-size: 50px;
+     background-color: orange;
+     height: 120px;
+     width: 550px;
+     margin-right: 30px;
+     border-radius:20px ;
+     align-items: center;
+     justify-content: center;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adjust values for the shadow effect */
+     transition: box-shadow 0.3s;
+   
+}
+.b1:hover{
+    border: 5px solid black;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+}
+.b2{
+    font-size: 50px;
+    background-color: orange;
+    height: 120px;
+    width: 550px;
+    margin-left: 30px;
+    border-radius:20px ;    
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adjust values for the shadow effect */
+    transition: box-shadow 0.3s;
+  
+}
+.b2:hover{
+   border: 5px solid black;
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+}
+.maintext{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+/** footer**/
+.footpanel1 {
+    background-color: white;
+    color: black;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+}
+.footpanel1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.foot-panel2{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+.foot{
+    align-items: center;
+}
+.text1{
+    font-size: 40px;
+    margin: 10px;
+}
+
+.text2{
+    font-size: 40px;
+    margin: 10px;
+}
+.text3{
+    font-size: 40px;
+    margin: 10px;
+}
+.icon1{
+    color:orange;
+    font-size: 50px;
+    margin: 10px;
+    justify-content: center;
+}
+.icon2{
+    color:orange;
+    font-size: 50px;
+    margin: 10px;
+}
+.icon3{
+    color:orange;
+    font-size: 50px;
+    margin: 10px;
+}
